@@ -16,5 +16,11 @@ module.exports = {
             })
             .then(console.log);
         },
+        'Berlioz': function() {
+            return dj.similarArtists({
+                artist: 'Hector Berlioz'
+            })
+            .then(console.log);
+        },
     }
 };
