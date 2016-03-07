@@ -1,0 +1,32 @@
+{
+  "name": "similar-music",
+  "version": "0.1.0",
+  "description": "A music similarity library, returning a weighted combination of several API and tool results.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --ui=exports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwicke/similar-music.git"
+  },
+  "keywords": [
+    "music",
+    "similarity",
+    "clustering",
+    "playlist",
+    "autodj"
+  ],
+  "author": "Gabriel Wicke <gswicke@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gwicke/similar-music/issues"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.3",
+    "preq": "^0.4.9"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
