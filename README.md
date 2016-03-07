@@ -56,3 +56,6 @@ Backends:
     without the weighted result merging.
 - [Spotify API documentation](https://developer.spotify.com/web-api/)
 - [Last.fm API documentation](http://www.last.fm/api/show/artist.getSimilar)
+- [Groovebasin](https://github.com/andrewrk/groovebasin), a rather nice
+    C++ / nodejs based player with a web frontend. It is lacking support for
+    using similarity in its auto-dj functionality.
