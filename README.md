@@ -9,7 +9,7 @@ npm install similar-music
 
 ## Usage
 
-For now, see [test/index.js](the tests).
+For now, see [the tests](test/index.js).
 
 ## Features
 
