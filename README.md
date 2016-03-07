@@ -1,6 +1,16 @@
 # similar-music
 A music similarity library, returning a weighted combination of several API and tool results.
 
+## Installation
+
+```bash
+npm install similar-music
+```
+
+## Usage
+
+For now, see [test/index.js](the tests).
+
 ## Features
 
 ### `similarArtists`
@@ -10,7 +20,7 @@ Backends:
 - Last.fm
 - Spotify
 
-## Todo
 ### `similarTracks`
 
-Almost done for last.fm.
+Backends:
+- Last.fm

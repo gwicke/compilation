@@ -22,5 +22,14 @@ module.exports = {
             })
             .then(console.log);
         },
+    },
+    'similarTracks': {
+        'Bonobo': function() {
+            return dj.similarTracks({
+                artist: 'Bonobo',
+                track: 'Silver'
+            })
+            .then(console.log);
+        },
     }
 };

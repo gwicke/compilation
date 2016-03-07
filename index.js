@@ -87,10 +87,10 @@ DeeJay.prototype._runQuery = function(info, queryName) {
     var self = this;
     return P.map(this._backendNames, function(backendName) {
         var backend = self._backends[backendName];
-        if (!backend.similarArtists) {
+        if (!backend[queryName]) {
             return null;
         } else {
-            return backend.similarArtists(info)
+            return backend[queryName](info)
             .catch(function(e) {
                 // console.log(e.stack);
                 // TODO: Report error?
@@ -119,6 +119,20 @@ DeeJay.prototype.similarArtists = function(info) {
         throw new Error('Artist missing.');
     }
     return this._runQuery(info, 'similarArtists');
+};
+
+DeeJay.prototype.similarTracks = function(info) {
+    // Validate info
+    if (!info) {
+        throw new Error('Expecting an info object containing an artist property.');
+    }
+    if (!info.artist) {
+        throw new Error('Artist missing.');
+    }
+    if (!info.track) {
+        throw new Error('Track missing.');
+    }
+    return this._runQuery(info, 'similarTracks');
 };
 
 module.exports = DeeJay;
