@@ -92,7 +92,7 @@ DeeJay.prototype._runQuery = function(info, queryName) {
         } else {
             return backend.similarArtists(info)
             .catch(function(e) {
-                console.log(e.stack);
+                // console.log(e.stack);
                 // TODO: Report error?
                 return null;
             });
