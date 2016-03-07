@@ -33,7 +33,7 @@ Backends:
 - Last.fm
 - Spotify
 
-### `similarTracks({ artist: 'Alice Coltrane', track: 'Om Supreme' })`
+### `similarTracks({ artist: 'Bonobo', track: 'Silver' })`
 
 Returns `Promise` resolving to an `Array`, ordered by similarity:
 
