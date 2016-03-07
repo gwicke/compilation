@@ -8,6 +8,7 @@ A music similarity library, returning a weighted combination of several API and 
 Backends:
 - Pandora
 - Last.fm
+- Spotify
 
 ## Todo
 ### `similarTracks`

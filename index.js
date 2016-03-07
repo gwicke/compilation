@@ -20,15 +20,16 @@ DeeJay.prototype._defaultOptions = {
             apiSecret: '2309a40ae3e271de966bf320498a8f09',
         },
         pandora: {},
+        spotify: {},
     },
     weights: {
         similarArtists: {
             lastfm: 1.0,
             pandora: 1.0,
+            spotify: 1.0,
         },
         similarTracks: {
             lastfm: 1.0,
-            pandora: 1.0,
         }
     }
 };
