@@ -43,7 +43,6 @@ Returns `Promise` resolving to an `Array`, ordered by similarity:
     href: 'http://www.last.fm/music/Bonobo/_/The+Plug',
     artist: 
      { name: 'Bonobo',
-       similarity: NaN,
        href: 'http://www.last.fm/music/Bonobo' } },
   ...
 ]
