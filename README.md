@@ -50,3 +50,9 @@ Returns `Promise` resolving to an `Array`, ordered by similarity:
 
 Backends:
 - Last.fm
+
+## See also
+- [metalminer](https://github.com/sjaak666/metalminer), a similar library
+    without the weighted result merging.
+- [Spotify API documentation](https://developer.spotify.com/web-api/)
+- [Last.fm API documentation](http://www.last.fm/api/show/artist.getSimilar)
