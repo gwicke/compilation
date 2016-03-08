@@ -40,7 +40,8 @@ DeeJay.prototype._mergeRankings = function(results, operation) {
         key: {},
         id: {},
     };
-    Object.keys(results).forEach(function(backendName) {
+    var resultKeys = Object.keys(results);
+    resultKeys.forEach(function(backendName) {
         var backendWeight = self._options.weights[operation][backendName];
         if (!results[backendName]) {
             return;
@@ -75,7 +76,7 @@ DeeJay.prototype._mergeRankings = function(results, operation) {
         results.forEach(function(res) {
             similarity += res.similarity;
         });
-        results[0].similarity = similarity / self._backendNames.length;
+        results[0].similarity = similarity / resultKeys.length;
         // Represent the merged cluster with the data from the first result.
         mergedResults.push(results[0]);
     });
