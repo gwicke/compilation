@@ -4,7 +4,7 @@ A music similarity library, returning a weighted combination of several API and 
 ## Installation
 
 ```bash
-npm install similar-music
+npm install compilation
 ```
 
 ## Usage
