@@ -1,6 +1,6 @@
 {
   "name": "compilation",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A music similarity library, returning a weighted combination of several API and tool results.",
   "main": "index.js",
   "scripts": {
