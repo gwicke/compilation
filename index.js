@@ -33,7 +33,7 @@ DeeJay.prototype._defaultOptions = {
         }
     },
     // Request timeouts in ms
-    timeout: 800
+    timeout: 2000
 };
 
 DeeJay.prototype._mergeRankings = function(results, operation) {
