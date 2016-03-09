@@ -31,7 +31,9 @@ DeeJay.prototype._defaultOptions = {
         similarTracks: {
             lastfm: 1.0,
         }
-    }
+    },
+    // Request timeouts in ms
+    timeout: 800
 };
 
 DeeJay.prototype._mergeRankings = function(results, operation) {
