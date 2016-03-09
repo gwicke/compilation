@@ -16,8 +16,8 @@ function DeeJay(options) {
 DeeJay.prototype._defaultOptions = {
     backends: {
         lastfm: {
-            apiKey: 'bb9b81026cd44fd086fa5533420ac9b4',
-            apiSecret: '2309a40ae3e271de966bf320498a8f09',
+            apiKey: 'aeb4ed1add3ba0de9a1b74cc785d2219',
+            apiSecret: 'ba26f3014dad4e6648fe5d7568f6f5db',
         },
         pandora: {},
         spotify: {},
